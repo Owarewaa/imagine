@@ -63,3 +63,39 @@ const bottle1 = {
   }
   
 
+//Functions
+// Defining a function
+function login(username, password) {
+  // Validate username and password
+  if (!username || !password) {
+    return 'username or password not provided';
+  }
+  // Verify username and password
+ if (username == 'akosuaowarewaa' && password == '1234') {
+    return 'User is logged in';
+ }else{
+   return 'invalid username or password'
+ }
+   
+}
+
+// Invoking a function
+login('akosuaowarewaa');
+
+
+
+
+
+// Basic arithmetic operations
+11+12;
+1+0.5;
+43-12;
+45/7;
+5*8;
+14%3;
+2*3+4-5 / 2;
+
+Math.floor(45/7);
+Math.round(45/24);
+Math.random() *1000;
+Math.max(34,32,37);
