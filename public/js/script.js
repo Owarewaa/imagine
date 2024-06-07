@@ -99,3 +99,31 @@ Math.floor(45/7);
 Math.round(45/24);
 Math.random() *1000;
 Math.max(34,32,37);
+
+// Strings in JavaScript
+// concatenation
+const firstname = 'Akosua';
+const lastname  ='Owarewaa';
+firstname + ' ' + lastname;
+// Template Literal
+`${firstname} ${lastname}`;
+
+// String Methods
+let fullname = "akosua owarewaa"
+fullname.length
+fullname.toUpperCase()
+fullname.toLowerCase()
+fullname.charAt(8)
+fullname.slice(5)
+fullname.split("")
+fullname.replace("akosua", "boateng")
+
+// String conversion
+Number('3.243')
+parseInt('3.243')
+parseFloat('3.243')
+let amount = 1600
+amount. toString()
+console.log(`GHS${1600}`)
+
+
