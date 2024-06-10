@@ -127,3 +127,67 @@ amount. toString()
 console.log(`GHS${1600}`)
 
 
+// // Write a function that will add a participant to our Google Classroom
+
+// function addParticipant(email, username, DOB) {
+//   if (email == 'MestAfrica.com' && username == 'Fellow' && DOB == 2000) { return 'Participant added succesfully';
+    
+//   }else{
+//     return 'Could not log in participant';
+//   }
+// }
+
+// addParticipant('MestAfrica.com', 'Fellow', '2000');
+
+
+// Or
+
+const participants = [];
+function addParticipant(email) {
+  // Check if email was provided
+  if(email === undefined || email ===null) {
+    return
+  }
+  // Add email to participants
+ participants.push(email);
+  return 'Participant added succesfully';
+}
+addParticipant('akosuaowarewaa360@gmail.com');
+participants;
+
+
+
+// Arrays in JavaScript
+const users = [
+  {
+    username: 'akosuaowarewaa',
+    password: '1234',
+    email: 'akosuaowarewaa360@gmail.com'
+  },
+  {
+    username: 'elviskobi',
+    password: '5678',
+    email: 'elviskobi@gmail.com'
+  }
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
